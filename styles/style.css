@@ -37,6 +37,39 @@ ol {
   list-style: none;
 }
 
+.content {
+  max-width: 1140px;
+  max-height: 534px;
+  display: grid;
+  place-items: center;
+  place-content: space-around;
+}
+
+.result {
+  grid-area: 1 / 1 / span 2 / span 1;
+}
+
+.content__details {
+  max-height: 534px;
+  overflow: auto;
+  grid-area: 1 / 2 / 2 / 3 ;
+}
+
+.result__video {
+  max-width: 711px;
+}
+
+
+
+
+
+.more-button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 6px 142px;
+}
+
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
