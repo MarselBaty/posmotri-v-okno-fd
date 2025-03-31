@@ -62,15 +62,16 @@ ol {
 }
 
 .content__details {
-  margin-top: 2px;
+  margin-top: 3px;
   grid-area: 1 / 2 / span 2 / span 1 ;
 }
 
 .content__list-container {
-  max-height: 300px;
+  max-height: 299px;
   max-width: 407px;
   overflow-y: auto;
   position: relative;
+  margin-bottom: 3px;
 }
 
 .result__video-container {
@@ -186,7 +187,7 @@ ol {
   color: #fff;
   border: 1px solid #fff;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
 
@@ -301,9 +302,9 @@ ol {
 }
 
 .more-button {
-  padding: 6px 142px;
+  padding: 5px 140px 5px 141px;
   margin-top: 33px;
-  margin-left: 2px;
+  margin-left: 3px;
   cursor: pointer;
 }
 
