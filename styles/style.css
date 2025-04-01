@@ -13,6 +13,7 @@ html {
 }
 
 .page {
+  display: flex;
   inline-size: 1200px;
   margin: auto;
   color: #fff;
@@ -21,6 +22,7 @@ html {
   background-color: #1b1919;
   align-items: center;
   justify-content: center;
+  block-size: 100%;
 }
 
 h1,
@@ -43,11 +45,11 @@ ol {
 }
 
 .content {
-  min-height: 800px;
   display: grid;
   place-content: space-around;
   justify-content: space-evenly;
   grid-column: auto;
+  gap: 30px;
 }
 
 .result, .content__details {
@@ -57,7 +59,7 @@ ol {
 }
 
 .result {
-  margin-top: 78px;
+  margin-top: 75px;
   grid-area: 1 / 1 / span 2 / span 1;
 }
 
